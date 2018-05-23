@@ -9,6 +9,8 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+Config.h"
+#import "ZXBaseNavigationController.h"
+#import "HomeMainViewController.h"
 
 @interface AppDelegate ()
 @end
@@ -21,7 +23,16 @@
     
     self.window = [[UIWindow alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
-    [self config];
+    //在此处做控制开关 如果不行就用他们的
+    BOOL shenxian = YES;
+    if (shenxian)
+    {
+        self.window.rootViewController = [[ZXBaseNavigationController alloc] initWithRootViewController:[[HomeMainViewController alloc] init]];
+    }
+    else
+    {
+        [self config];
+    }
     [self.window makeKeyAndVisible];
     
     return YES;

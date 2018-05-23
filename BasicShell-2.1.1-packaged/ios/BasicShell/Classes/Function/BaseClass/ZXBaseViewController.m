@@ -19,8 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self xn_initData];
-    [self xn_initSubViews];
+    [self base_initData];
+    [self base_initSubViews];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -38,12 +38,12 @@
 
 #pragma mark - 🔒private
 
-- (void)xn_initData
+- (void)base_initData
 {
-    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (void)xn_initSubViews
+- (void)base_initSubViews
 {
     
 }
