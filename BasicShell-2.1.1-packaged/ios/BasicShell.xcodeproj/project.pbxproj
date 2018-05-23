@@ -124,6 +124,11 @@
 		BE6453AD3FAF4D6488572EE2 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF6248324C74E9CB879B23D /* libRNSVG.a */; };
 		CF4F9E75C08E448682CC9917 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AD1D966B32B45749E7C7E77 /* Ionicons.ttf */; };
 		E4A70AF335A24A28BE4CB17B /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E949A5F293B84E5C895476F8 /* libresolv.tbd */; };
+		F321C17C20B550840013B8B7 /* ZXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321C17B20B550840013B8B7 /* ZXBaseViewController.m */; };
+		F321C17F20B550B20013B8B7 /* LoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321C17E20B550B20013B8B7 /* LoginMainViewController.m */; };
+		F321C18220B550E10013B8B7 /* ZXRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321C18120B550E10013B8B7 /* ZXRootTabBarController.m */; };
+		F321C18620B5510B0013B8B7 /* HomeMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321C18520B5510B0013B8B7 /* HomeMainViewController.m */; };
+		F321C18920B551C30013B8B7 /* ZXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F321C18820B551C30013B8B7 /* ZXBaseNavigationController.m */; };
 		F6F1FDE504BC4F7982BB0DA1 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE3EADC4556438B83581613 /* FontAwesome.ttf */; };
 /* End PBXBuildFile section */
 
@@ -729,6 +734,16 @@
 		E5657FF113B741378CFDAD07 /* ReactNativeWebp.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeWebp.xcodeproj; path = "../node_modules/react-native-webp/ReactNativeWebp.xcodeproj"; sourceTree = "<group>"; };
 		E949A5F293B84E5C895476F8 /* libresolv.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		F1E5D5910B734006958177FD /* libRCTJCoreModule.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTJCoreModule.a; sourceTree = "<group>"; };
+		F321C17A20B550840013B8B7 /* ZXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXBaseViewController.h; sourceTree = "<group>"; };
+		F321C17B20B550840013B8B7 /* ZXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXBaseViewController.m; sourceTree = "<group>"; };
+		F321C17D20B550B20013B8B7 /* LoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMainViewController.h; sourceTree = "<group>"; };
+		F321C17E20B550B20013B8B7 /* LoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginMainViewController.m; sourceTree = "<group>"; };
+		F321C18020B550E10013B8B7 /* ZXRootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXRootTabBarController.h; sourceTree = "<group>"; };
+		F321C18120B550E10013B8B7 /* ZXRootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXRootTabBarController.m; sourceTree = "<group>"; };
+		F321C18420B5510B0013B8B7 /* HomeMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeMainViewController.h; sourceTree = "<group>"; };
+		F321C18520B5510B0013B8B7 /* HomeMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeMainViewController.m; sourceTree = "<group>"; };
+		F321C18720B551C30013B8B7 /* ZXBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXBaseNavigationController.h; sourceTree = "<group>"; };
+		F321C18820B551C30013B8B7 /* ZXBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXBaseNavigationController.m; sourceTree = "<group>"; };
 		F992DDACA39B4B9D8183650E /* RNFS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 		FF1BA3EEC0024637846125BD /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1302,6 +1317,7 @@
 		27EEB2AD1FCFE7230053F310 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F321C13720B54FB20013B8B7 /* Function */,
 				27C5E4D0205F8D37000F310A /* Utilities */,
 				274C4D271FE10ABA0090D134 /* RCTModules */,
 				27EEB2CC1FCFE80B0053F310 /* Categories */,
@@ -1480,6 +1496,71 @@
 				1A9E4E041FC6CC3600479CBF /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F321C13720B54FB20013B8B7 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				F321C17920B550370013B8B7 /* BaseClass */,
+				F321C17520B54FF00013B8B7 /* Login */,
+				F321C17420B54FD90013B8B7 /* Tabbar */,
+				F321C17320B54FC00013B8B7 /* Home */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		F321C17320B54FC00013B8B7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F321C18320B550F10013B8B7 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F321C17420B54FD90013B8B7 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F321C18020B550E10013B8B7 /* ZXRootTabBarController.h */,
+				F321C18120B550E10013B8B7 /* ZXRootTabBarController.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		F321C17520B54FF00013B8B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F321C17620B550030013B8B7 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F321C17620B550030013B8B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F321C17D20B550B20013B8B7 /* LoginMainViewController.h */,
+				F321C17E20B550B20013B8B7 /* LoginMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F321C17920B550370013B8B7 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				F321C17A20B550840013B8B7 /* ZXBaseViewController.h */,
+				F321C17B20B550840013B8B7 /* ZXBaseViewController.m */,
+				F321C18720B551C30013B8B7 /* ZXBaseNavigationController.h */,
+				F321C18820B551C30013B8B7 /* ZXBaseNavigationController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		F321C18320B550F10013B8B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F321C18420B5510B0013B8B7 /* HomeMainViewController.h */,
+				F321C18520B5510B0013B8B7 /* HomeMainViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2157,6 +2238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F321C18620B5510B0013B8B7 /* HomeMainViewController.m in Sources */,
 				2702CBD81FEB91450020E833 /* NSArray+LAN.m in Sources */,
 				2702CBEA1FEB98620020E833 /* DeviceDataLibrery.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
@@ -2164,15 +2246,19 @@
 				271174741FD254A40012615A /* WebViewController.m in Sources */,
 				2702CBE91FEB98620020E833 /* BatteryInfoManager.m in Sources */,
 				274C4D5F1FE10ABA0090D134 /* AppConfigurationModule.m in Sources */,
+				F321C18220B550E10013B8B7 /* ZXRootTabBarController.m in Sources */,
+				F321C17C20B550840013B8B7 /* ZXBaseViewController.m in Sources */,
 				2702CBEB1FEB98620020E833 /* DeviceInfoManager.m in Sources */,
 				27EEB2C41FCFE7230053F310 /* HQNetworking.m in Sources */,
 				27EEB2CF1FCFE80B0053F310 /* AppDelegate+Config.m in Sources */,
+				F321C18920B551C30013B8B7 /* ZXBaseNavigationController.m in Sources */,
 				2702CAD51FEA051F0020E833 /* DeviceUID.m in Sources */,
 				1A9E4DFD1FC6CC3500479CBF /* UMShareModule.m in Sources */,
 				27EEB2C71FCFE7230053F310 /* HQNetWorkingApi+ReviewStatus.m in Sources */,
 				27EEB2C11FCFE7230053F310 /* ReactNativeViewController.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				27EEB2C51FCFE7230053F310 /* HQNetWorkingApi.m in Sources */,
+				F321C17F20B550B20013B8B7 /* LoginMainViewController.m in Sources */,
 				27EEB2D21FCFE8630053F310 /* AppDelegate+Service.m in Sources */,
 				27190568200897E80071BB7F /* PromptViewController.m in Sources */,
 				2702CBEC1FEB98620020E833 /* NetWorkInfoManager.m in Sources */,
